@@ -13,12 +13,25 @@
     <main class="home-page">
       <div class="recipe-building-boxes">
         <div class="dish-selection-box">
-          <h2>What are you looking for?</h2>
+          <div class="question">
+          <h2>What are you looking for?<span class="asterisk">*</span></h2>
+        </div>
           <div class="radio-buttons">
-            <input type="radio">Side</input>
-            <input type="radio">Main Dish</input>
-            <input type="radio">Dessert</input>
-            <input type="radio">Entire Meal</input>
+            <div class="side-button">
+              <input type="radio"><span class ="button-text">Side</span></input>
+            </div>
+            <div class="main-button">
+              <input type="radio"><span class ="button-text">Main Dish</span></input>
+            </div>
+            <div class="dessert-button">
+              <input type="radio"><span class ="button-text">Dessert</span></input>
+            </div>
+            <div class="entire-meal-button">
+              <input type="radio"><span class ="button-text">Entire Meal</span></input>
+            </div>
+          </div>
+          <div class="recipe-generator-button">
+            <button class="lets-cook-button">LET'S COOK!</button>
           </div>
         </div>
         <div class="cook-pot-box">

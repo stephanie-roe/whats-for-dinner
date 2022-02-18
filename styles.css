@@ -15,6 +15,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-height: 45px;
 }
 
 h1 {
@@ -22,7 +25,6 @@ h1 {
   font-size: 24px;
   font-weight: 200px;
   display: inline-flex;
-  padding-left: 10px;
 }
 
 button {
@@ -39,39 +41,45 @@ body {
   min-width: 100%;
   background-image: url(/Users/steph/turing/mod1/projects/whats-for-dinner/assets/burger-friends.jpg);
   background-size: cover;
-  /* position:relative;
-  z-index: 1; */
 }
 
 .dish-selection-box {
+  /* border: 1px solid black; */
   font-family: 'Roboto', sans-serif;
-  height: 300px;
-  width: 350px;
+  height: 400px;
+  width: 500px;
   background-color: white;
   opacity: 0.75;
   border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .radio-buttons {
-  display: flex;
-  flex-direction: column-reverse;
+  /* border: 1px solid black; */
+  display: inline-flex;
+  flex-direction: column;
   background-color: white;
+  padding-bottom: 70px;
+  max-height: 100px;
 }
 
 .cook-pot-box {
   display: flex;
   justify-content: space-around;
-  height: 300px;
-  width: 350px;
+  align-items: center;
+  height: 400px;
+  width: 500px;
   background-color: white;
   opacity: 0.75;
   border: none;
 }
 
 .cook-pot-image {
-  max-height: 100px;
-  max-width: 100px;
   /* border: 1px solid black; */
+  max-height: 150px;
+  max-width: 150px;
   padding: 100px;
 }
 
@@ -79,10 +87,79 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 200px;
+  padding-top: 50px;
 }
-h2 {
+
+.question {
   /* border: 1px solid black; */
-  text-align: center;
-  padding-top: 40px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  max-height: 80px
+}
+
+h2 {
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+.asterisk {
+  color: ee5253;
+}
+
+.button-text {
+  /* border: 1px solid black; */
+  padding-left: 5px;
+}
+
+.side-button {
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.main-button {
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.dessert-button{
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.entire-meal-button {
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+}
+
+.lets-cook-button {
+  background-color: #0fb9b1;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 12px;
+}
+
+.recipe-generator-button {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  max-height: 30px;
 }
