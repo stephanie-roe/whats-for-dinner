@@ -8,3 +8,158 @@ red - #ee5253
 
 */
 
+nav {
+  background-color: #0fb9b1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-height: 45px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 200px;
+  display: inline-flex;
+}
+
+button {
+  display: inline-flex;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url(/Users/steph/turing/mod1/projects/whats-for-dinner/assets/burger-friends.jpg);
+  background-size: cover;
+}
+
+.dish-selection-box {
+  /* border: 1px solid black; */
+  font-family: 'Roboto', sans-serif;
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  opacity: 0.75;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.radio-buttons {
+  /* border: 1px solid black; */
+  display: inline-flex;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 70px;
+  max-height: 100px;
+}
+
+.cook-pot-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  opacity: 0.75;
+  border: none;
+}
+
+.cook-pot-image {
+  /* border: 1px solid black; */
+  max-height: 150px;
+  max-width: 150px;
+  padding: 100px;
+}
+
+.recipe-building-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.question {
+  /* border: 1px solid black; */
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  max-height: 80px
+}
+
+h2 {
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+.asterisk {
+  color: ee5253;
+}
+
+.button-text {
+  /* border: 1px solid black; */
+  padding-left: 5px;
+}
+
+.side-button {
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.main-button {
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.dessert-button{
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.entire-meal-button {
+  display: inline-flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+}
+
+.lets-cook-button {
+  background-color: #0fb9b1;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 12px;
+}
+
+.recipe-generator-button {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  max-height: 30px;
+}
