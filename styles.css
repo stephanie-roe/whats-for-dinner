@@ -163,3 +163,27 @@ h2 {
   padding-top: 12px;
   max-height: 30px;
 }
+
+.display-dish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.dish-display {
+  font-size: I 80px;
+  font-weight: 1500;
+  padding-left: 0;
+  padding-top: 0;
+  margin: 0;
+}
+
+.template-title {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
