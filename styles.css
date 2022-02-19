@@ -1,13 +1,15 @@
-/* font-family: 'Roboto', sans-serif;
+/*
+FONT
+font-family: 'Roboto', sans-serif;
 
 COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
 red - #ee5253
-
 */
 
+/* NAV BAR */
 nav {
   background-color: #0fb9b1;
   display: flex;
@@ -35,6 +37,7 @@ button {
   text-align: center;
 }
 
+/* BODY & FORMATTING */
 body {
   margin: 0;
   min-height: 100%;
@@ -43,8 +46,15 @@ body {
   background-size: cover;
 }
 
+.recipe-building-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+/* DISH SELECTION BOX */
 .dish-selection-box {
-  /* border: 1px solid black; */
   font-family: 'Roboto', sans-serif;
   height: 400px;
   width: 500px;
@@ -57,7 +67,6 @@ body {
 }
 
 .radio-buttons {
-  /* border: 1px solid black; */
   display: inline-flex;
   flex-direction: column;
   background-color: white;
@@ -65,33 +74,7 @@ body {
   max-height: 100px;
 }
 
-.cook-pot-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 400px;
-  width: 500px;
-  background-color: white;
-  opacity: 0.75;
-  border: none;
-}
-
-.cook-pot-image {
-  /* border: 1px solid black; */
-  max-height: 150px;
-  max-width: 150px;
-  padding: 100px;
-}
-
-.recipe-building-boxes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 50px;
-}
-
 .question {
-  /* border: 1px solid black; */
   font-size: 20px;
   display: flex;
   flex-direction: row;
@@ -110,7 +93,6 @@ h2 {
 }
 
 .button-text {
-  /* border: 1px solid black; */
   padding-left: 5px;
 }
 
@@ -154,7 +136,6 @@ h2 {
 }
 
 .recipe-generator-button {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -164,26 +145,45 @@ h2 {
   max-height: 30px;
 }
 
+/* COOK POT BOX */
+.cook-pot-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  opacity: 0.75;
+  border: none;
+}
+
+.cook-pot-image {
+  max-height: 150px;
+  max-width: 150px;
+  padding: 100px;
+}
+
 .display-dish {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .dish-display {
-  font-size: I 80px;
+  font-size: 30px;
   font-weight: 1500;
-  padding-left: 0;
-  padding-top: 0;
+  text-align: center;
+  padding-left: 30;
+  padding-right: 30;
+  padding-top: 10;
   margin: 0;
 }
 
 .template-title {
   font-style: italic;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 700;
   margin: 0;
 }
